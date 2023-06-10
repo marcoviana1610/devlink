@@ -81,14 +81,20 @@ body{
   position: absolute;
   z-index: 1;
   transform: translateY(-50%);
+  animation: slide-return .4s;
 }
 
 .light #switch button{
-  left: initial;
-  right: 0;
+  animation: slide-in .4s forwards;
+
   background: rgb(229, 228, 140) var(--switch-bg-url) no-repeat center;
   cursor: pointer;
 
+}
+
+#switch button:hover {
+  transition: .2s;
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span{
@@ -184,3 +190,28 @@ footer {
 
 
 }
+
+
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+
+}
+
+@keyframes slide-return {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+
+
+
