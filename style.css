@@ -177,6 +177,12 @@ footer {
   margin: 0 0 0 15px;
 }
 
+@media  (min-width: 320px) {
+  body{
+    background: var(--bg-url);
+  }
+}
+
 
 
 @keyframes slide-in {
