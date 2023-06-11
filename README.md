@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./assets/images/preview.jpg" width="100%">
+  <img alt="projeto DevLinks" src="./assets/images/Devlink - project.png" width="100%">
 </p>
 
 <p align="center">
@@ -45,5 +45,3 @@ O DevLinks é um agregador de links para usar como cartão de visitas online.
 Esse projeto está sob a licença MIT.
 
 ---
-
-##### 🚀 Este projeto foi um desafio da @Rocketseat
