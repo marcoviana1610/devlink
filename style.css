@@ -8,7 +8,7 @@
 /* dark mode*/
 :root {
   --text-color: white;
-  --bg-url: url(./assets/images/bg-mobile-dark.jpg) no-repeat top center/cover;
+  --bg-url: #191627;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -18,7 +18,7 @@
 /* light mode */
 .light {
   --text-color: black;
-  --bg-url: url(./assets/images/bg-mobile-light.jpg) no-repeat top center/cover;
+  --bg-url: rgb(225, 214, 252);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -35,7 +35,7 @@ body *{
   color: var(--text-color);
 }
 body{
-  background: var(--bg-url);
+  background-color: var(--bg-url);
   height: 100vh;
 }
 
@@ -87,7 +87,7 @@ body{
 .light #switch button{
   animation: slide-in .4s forwards;
 
-  background: rgb(229, 228, 140) var(--switch-bg-url) no-repeat center;
+  background: rgb(238, 201, 37) var(--switch-bg-url) no-repeat center;
   cursor: pointer;
 
 }
@@ -175,20 +175,6 @@ footer {
 #folio_icon{
   display: flex;
   margin: 0 0 0 15px;
-}
-
-
-
-@media (min-width: 700px) {
-  :root {
-    --bg-url: url(./assets/images/bg-desktop-dark.jpg)
-  }
-
-  .light {
-    --bg-url: url(./assets/images/bg-desktop-light.jpg)
-  }
-
-
 }
 
 
